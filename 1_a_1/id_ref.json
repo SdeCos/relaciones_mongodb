@@ -1,0 +1,14 @@
+{
+  "usuario": {
+    "_id": "ObjectId('5f50c31f1c9d440000a39b25')",
+    "nombre": "Jane Doe",
+    "email": "jane.doe@example.com",
+    "profileId": "ObjectId('5f50c31f1c9d440000a39b26')"
+  },
+  "perfil": {
+    "_id": "ObjectId('5f50c31f1c9d440000a39b26')",
+    "bio": "Graphic designer",
+    "website": "https://janedoe.com",
+    "userId": "ObjectId('5f50c31f1c9d440000a39b25')"
+  }
+}
