@@ -11,7 +11,7 @@ Tipos de relaciones mongodb:
   - [referencia id](1_a_muchos/id_ref.json)
 
 - Archivos combinados para importar:
-  - [combinados](archivos_combinados/combinados.json)
+  - [combinados](archivos_combinados/combinado.json)
 
 Consultas:
 
