@@ -1,0 +1,79 @@
+[{
+  "_id": {
+    "$oid": "67d7402371fb91d96ecebe9a"
+  },
+  "usuario": {
+    "_id": "ObjectId('5f50c31f1c9d440000a39b25')",
+    "nombre": "John Doe",
+    "email": "john.doe@example.com",
+    "perfil": {
+      "bio": "Software developer",
+      "website": "https://johndoe.com"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "67d7408a71fb91d96ecebe9b"
+  },
+  "usuario": {
+    "_id": "ObjectId('5f50c31f1c9d440000a39b25')",
+    "nombre": "Jane Doe",
+    "email": "jane.doe@example.com",
+    "profileId": "ObjectId('5f50c31f1c9d440000a39b26')"
+  },
+  "perfil": {
+    "_id": "ObjectId('5f50c31f1c9d440000a39b26')",
+    "bio": "Graphic designer",
+    "website": "https://janedoe.com",
+    "userId": "ObjectId('5f50c31f1c9d440000a39b25')"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d741c571fb91d96ecebe9c"
+  },
+  "autor": {
+    "_id": "ObjectId('5f50c31f1c9d440000a39b25')",
+    "nombre": "John Smith",
+    "email": "john.smith@example.com",
+    "libros": [
+      {
+        "titulo": "MongoDB Basics",
+        "paginas": 200
+      },
+      {
+        "titulo": "Advanced MongoDB",
+        "paginas": 300
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "67d741cf71fb91d96ecebe9d"
+  },
+  "autor": {
+    "_id": "ObjectId('5f50c31f1c9d440000a39b25')",
+    "nombre": "Jane Doe",
+    "email": "jane.doe@example.com",
+    "libros": [
+      "ObjectId('5f50c31f1c9d440000a39b26')",
+      "ObjectId('5f50c31f1c9d440000a39b27')"
+    ]
+  },
+  "libros": [
+    {
+      "_id": "ObjectId('5f50c31f1c9d440000a39b26')",
+      "titulo": "MongoDB Basics",
+      "paginas": 200,
+      "autor": "ObjectId('5f50c31f1c9d440000a39b25')"
+    },
+    {
+      "_id": "ObjectId('5f50c31f1c9d440000a39b27')",
+      "titulo": "Advanced MongoDB",
+      "paginas": 300,
+      "autor": "ObjectId('5f50c31f1c9d440000a39b25')"
+    }
+  ]
+}]
