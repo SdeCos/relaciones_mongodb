@@ -1,6 +1,6 @@
 # Relaciones Mongodb
 
-## Archivos individuales
+## Archivos individuales:
 
 - Relaciones 1 A 1:
 
@@ -8,7 +8,6 @@
   - [referencia id](1_a_1/id_ref.json)
 
 - Relaciones 1 A Muchos:
-
   - [integrado](1_a_muchos/integrado.json)
   - [referencia id](1_a_muchos/id_ref.json)
 
